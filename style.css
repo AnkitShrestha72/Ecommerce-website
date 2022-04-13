@@ -43,7 +43,7 @@ body{
     width: 15rem;
     padding: 0.5rem;
     color: black;
-    background-color: #F5F6F4;
+    background-color: #ffffff;
 }
 
 .navvar{
@@ -189,6 +189,10 @@ body{
     bottom: 20%;
     left: 23%;
     transition: all .5s ease-in-out;
+    border: 2px solid black;
+    border-radius: 3em;
+    width: 7em;
+    text-align: center;
     
 }
 .div:hover .view{
