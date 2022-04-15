@@ -10,6 +10,26 @@ body{
     background-size: 200%;
  
 }
+.righty{
+    display: flex;
+    align-items: center;
+}
+
+
+.righty h6{
+    font-weight: 400;
+    font-size: small;
+    cursor: pointer;
+}
+.boxxx{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 2.5em;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
 .searchBar{
     display: relative;
     display: flex;
@@ -65,22 +85,44 @@ body{
 }
 
 .imagess{
-    height: 90vh;
+    height: 70vh;
+    max-width: 100%;
 }
+/* .carousel-inner{
+    background-image: url(images/sale\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 .carousel-caption{
-    bottom: 13em;
-    right: 40em;
-    width: 30%;
+    bottom: 4em;
+    left: 10em;
+    width: 40%;
     
 }
 .carousel-caption h1{
     font-weight: 900;
+    font-size: 5em;
     font-family: 'Pacifico', cursive;
-    color: #9b2226;
+    color: #dddcdc;
 }
 .carousel-caption h3{
-    color: #9b2226;
+    font-size: 3em;
+    font-weight: bold;
+    color: #d1d1d1;
+}
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 17px;
+    grid-row-gap: 0px;
+    
+    }
+.parent1 img{
+    width: 100%;
+    cursor: pointer;
 }
 
 .box{
@@ -170,7 +212,7 @@ body{
     }
 .parent img{
      max-width: 15em;  
-     border: 2px solid #6b705c;
+     /* border: 2px solid #6b705c; */
     }
 .parent img:hover{
     transform: scaleY(0.9);
@@ -182,7 +224,24 @@ body{
     position: relative;
     overflow: hidden;
     margin: auto;
+    
 }
+
+.div .back-img{
+    position: relative;
+    height: 0.5em;
+}
+.div .front-img{
+    position: absolute;
+}
+.div .back-img:hover{
+    opacity: 0;
+}
+.dis{
+    margin-top: 20em;
+}
+
+
 .view{
     position: absolute;
     z-index: -1;
