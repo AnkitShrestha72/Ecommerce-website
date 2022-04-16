@@ -230,13 +230,16 @@ body{
 .div .back-img{
     position: relative;
     height: 0.5em;
+    transition: all linear 0.7s;
 }
 .div .front-img{
     position: absolute;
 }
 .div .back-img:hover{
     opacity: 0;
+
 }
+
 .dis{
     margin-top: 20em;
 }
