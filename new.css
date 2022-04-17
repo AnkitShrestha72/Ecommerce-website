@@ -1,0 +1,87 @@
+.top {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.top ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.top li {
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+.top .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 3em;
+  width: 15%;
+  cursor: pointer;
+}
+
+.top .cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 0;
+  min-width: 6%;
+  background-color: #d54d4d;
+  height: 48px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.itemm {
+  text-align: center;
+}
+
+.itemm .checked {
+  color: orange;
+}
+
+.itemm .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.itemm .price p {
+  padding: 0 0.2em;
+}
+
+.itemm .price .p1 {
+  text-decoration: line-through;
+  color: #d12631;
+}
+
+.sale {
+  background-color: #f3f3f3;
+  -webkit-filter: drop-shadow(8px 8px 10px #0e0e0e);
+          filter: drop-shadow(8px 8px 10px #0e0e0e);
+  text-align: center;
+}
+/*# sourceMappingURL=new.css.map */
