@@ -62,4 +62,35 @@
     filter: drop-shadow(8px 8px 10px rgb(14, 14, 14));
     text-align: center;
 }
+footer{
+    background-color: #222;
+    color: #f3f3f3;
 
+    .foot{
+        display: flex;
+        justify-content: space-around;
+    }
+    .copyright{
+        background-color:red;
+        min-height:2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+#part4 input{
+    opacity: .7;
+}
+
+.itemss a{
+    text-decoration: none;
+}
+
+.itemss h6{
+    color: #222;
+    text-decoration: none;
+}
+
+.itemss h6:hover{
+    transform: scaley(1.3);
+}
