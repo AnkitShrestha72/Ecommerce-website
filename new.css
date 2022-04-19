@@ -85,28 +85,29 @@
 
 .sale {
   background-color: #f3f3f3;
-  -webkit-filter: drop-shadow(8px 8px 10px orange);
-          filter: drop-shadow(8px 8px 10px orange);
+  -webkit-filter: drop-shadow(8px 8px 10px #0e0e0e);
+          filter: drop-shadow(8px 8px 10px #0e0e0e);
   text-align: center;
 }
 
 footer {
-  background-color: #222;
   color: #f3f3f3;
+  background-image: url(images/footer.svg);
+  min-width: 100%;
 }
 
 footer .foot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-right: 3em;
+  margin-left: 3em;
 }
 
 footer .copyright {
-  background-color: red;
+  background-color: #d12631;
   min-height: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,12 +120,58 @@ footer .copyright {
           align-items: center;
 }
 
+footer #part1 h6 {
+  cursor: pointer;
+  color: #ea4335;
+}
+
+footer #part1 p {
+  cursor: pointer;
+}
+
+footer #part2 h6 {
+  cursor: pointer;
+  color: #ea4335;
+}
+
+footer #part2 p {
+  cursor: pointer;
+}
+
+footer #part3 h6 {
+  cursor: pointer;
+  color: #ea4335;
+}
+
+footer #part3 p {
+  cursor: pointer;
+}
+
+footer #part4 h6 {
+  cursor: pointer;
+  color: #ea4335;
+}
+
 #part4 input {
   background: none;
   border: 2px solid white;
   min-width: 20vw;
   border-radius: 0.5rem;
   color: white;
+}
+
+#part3 .sociall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 15%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#part3 .sociall .i {
+  cursor: pointer;
 }
 
 .itemss a {
@@ -145,10 +192,21 @@ footer .copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logooo svg {
   height: 3em;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  margin-top: 2em;
+}
+
+.logooo a {
+  color: #eeeeee;
+  margin-top: 2em;
 }
 
 .login1 {
@@ -202,5 +260,58 @@ footer .copyright {
 
 .banner img {
   cursor: pointer;
+}
+
+.contacti {
+  position: relative;
+}
+
+.contacti .heading h1 {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  color: white;
+  font-weight: 900;
+}
+
+.contacty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 50em;
+}
+
+.contacty .lft {
+  border: 2px solid black;
+}
+
+.contacty .lft .form {
+  text-align: center;
+}
+
+.contacty .lft .form input {
+  width: 70%;
+}
+
+.contacty .rgt {
+  border: 2px solid black;
+}
+
+.snap {
+  background-color: #3b5998;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  padding-top: 15px;
+  font-size: larger;
 }
 /*# sourceMappingURL=new.css.map */

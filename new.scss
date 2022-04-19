@@ -64,25 +64,65 @@
 .sale{
     background-color: #f3f3f3;
     // box-shadow: 5px 3px 5px 3px black;
-    filter: drop-shadow(8px 8px 10px orange);
+    filter: drop-shadow(8px 8px 10px rgb(14, 14, 14));
     text-align: center;
 }
 footer{
-    background-color: #222;
+    // background-color: #222;
     color: #f3f3f3;
+    background-image: url(images/footer.svg);
+    min-width: 100%;
+    // background-repeat: no-
 
     .foot{
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
-        // justify-content: ce;
+        margin-right: 3em;
+         margin-left: 3em;
+        
     }
     .copyright{
-        background-color:red;
+        background-color: #d12631;
         min-height:2em;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    #part1{
+        h6{
+            cursor: pointer;
+            color: #ea4335;
+
+        }
+        p{
+            cursor: pointer;
+        }
+    }
+    #part2{
+        h6{
+            cursor: pointer;
+            color: #ea4335;
+        }
+        p{
+            cursor: pointer;
+        }
+    }
+    #part3{
+        h6{
+            cursor: pointer;
+            color: #ea4335;
+            
+        }
+        p{
+            cursor: pointer;
+        }
+    }
+    #part4{
+        h6{
+            cursor: pointer;
+            color: #ea4335;
+            
+        }
     }
 }
 #part4 input{
@@ -93,7 +133,18 @@ footer{
     border-radius: 0.5rem;
     color: white;
 }
+#part3{
+  .sociall{
+      display: flex;
+      max-width: 15%;
+      justify-content: space-between;
 
+      .i{
+          cursor: pointer;
+      }
+  }  
+    
+}
 .itemss a{
     text-decoration: none;
 }
@@ -108,15 +159,21 @@ footer{
 }
 
 .logooo{
-   display: flex;
+  display: flex;
+  justify-content: center;
+   
     svg{
         height: 3em;
+        filter: invert(100%);
+        margin-top: 2em;
+
+    }
+    a{
+        color: #eeeeee;
+        margin-top: 2em;
     }
 }
 
-.svgaa{
-  
-}
 
 .login1{
     box-shadow: 3px 4px 30px 2px black;
@@ -159,4 +216,60 @@ footer{
 }
 .banner img{
     cursor: pointer;
+}
+
+.contacti{
+    position: relative;
+    .image{
+        img{
+            // position: relative;
+        }
+       
+    }
+    .heading h1{
+        position: absolute;
+        top: 40%;
+        right: 50%;
+        color: white;
+        font-weight: 900;
+    }
+    
+}
+.contacty{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50em;
+   
+
+    .lft{
+        border: 2px solid black;
+        .form{
+            text-align: center;
+            input{
+                width: 70%;
+            }
+           
+         
+        }
+    }
+    .rgt{
+        border: 2px solid black;
+    }
+}
+
+.snap{
+    background-color: #3b5998;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding-top: 15px;
+    font-size: larger;
+
 }
