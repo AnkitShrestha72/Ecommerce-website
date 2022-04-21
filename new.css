@@ -274,52 +274,62 @@ footer #part4 h6 {
   font-weight: 900;
 }
 
-.contacty {
+.contacte .parts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  height: 40em;
 }
 
-.contacty .lft {
-  background-color: white;
-  border: 2px solid black;
+.contacte .parts span {
+  color: #007aff;
+  cursor: pointer;
 }
 
-.contacty .lft .form {
-  text-align: center;
+.contacte .parts span:hover {
+  color: #000;
 }
 
-.contacty .lft .form input {
-  width: 70%;
+.contacte .parts .lfte h3 {
+  font-weight: 800;
 }
 
-.contacty .lft .form button {
-  width: 70%;
-  color: #eeeeee;
-  background-color: black;
-  border: none;
-  border-radius: 2em;
-  font-weight: 900;
-  -webkit-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
+.contacte .parts .lfte h5 {
+  font-weight: 800;
 }
 
-.contacty .lft .form button:hover {
-  background-color: #d12631;
+.contacte .parts .lfte a {
+  text-decoration: none;
+  font-size: large;
 }
 
-.contacty .rgt {
-  border: 2px solid black;
-  background-color: white;
+.contacte .parts .rgte h5 {
+  font-weight: 800;
 }
 
-.contacty .rgt .address {
+.contacte .parts .rgte h6 {
+  font-weight: 700;
+}
+
+.contacte .parts .rgte .check {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 80%;
+}
+
+.contacte .parts .rgte .check input {
+  min-width: 1.2em;
+}
+
+.contacte .parts .rgte button {
+  width: 90%;
+}
+
+.contacte h1 {
+  text-align: center;
+  font-weight: 800;
 }
 
 .snap {
