@@ -347,4 +347,40 @@ footer #part4 h6 {
   padding-top: 15px;
   font-size: larger;
 }
+
+.aura {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aura .lf .ver {
+  border-left: 3px solid #b8b7b7;
+}
+
+.aura .lf h2 {
+  font-weight: 900;
+}
+
+.aura .rt .image {
+  -webkit-box-shadow: 20px 20px 2px 1px black;
+          box-shadow: 20px 20px 2px 1px black;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.aura .rt .image img {
+  width: 25em;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.aura .rt .image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=new.css.map */
