@@ -372,7 +372,7 @@ footer #part4 h6 {
 }
 
 .aura .rt .image img {
-  width: 25em;
+  max-width: 25em;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
