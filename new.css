@@ -383,4 +383,167 @@ footer #part4 h6 {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
+
+.blogs .lll {
+  position: relative;
+}
+
+.blogs .lll .lll2 {
+  position: relative;
+}
+
+.blogs .lll .lll3 {
+  position: relative;
+}
+
+.blogs .lll .down1 h3 {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.blogs .lll .down1 h3:hover {
+  color: #1da1f2;
+}
+
+.blogs .lll .image {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.blogs .lll .image img {
+  cursor: pointer;
+  width: 55em;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.blogs .lll .image img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blogs .lll .date {
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 0.5em;
+  left: 1em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.blogs .lll .date2 {
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 3.5em;
+  left: 0.5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.blogs .lll .date3 {
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 3.5em;
+  left: 0.5em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.blogs .lll .down1 h3 {
+  font-weight: 900;
+  display: inline-block;
+}
+
+.blogs .lll .read {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blogs .lll .read span {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 2px solid #888;
+  padding-right: 0.5em;
+  font-size: 0.9em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.blogs .lll .read a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: 900;
+  display: inline-block;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.blogs .lll .read a:hover {
+  color: #1da1f2;
+}
+
+.blogs .rrr .search {
+  position: relative;
+  display: inline-block;
+}
+
+.blogs .rrr .search .searchTxt {
+  height: 3em;
+  width: 15em;
+  border-radius: 5em;
+  background: none;
+}
+
+.blogs .rrr .search .searchBtnn {
+  position: absolute;
+  right: 1em;
+  bottom: 0.8em;
+}
+
+.blogs .rrr .categories h3 {
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.blogs .rrr .categories h6 {
+  cursor: pointer;
+  border-top: 2px solid #888;
+  margin-top: 1em;
+  padding-top: 0.5em;
+}
+
+.blogs .rrr .categories .flexx li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-left: -2em;
+}
+
+.blogs .rrr .categories .flexx li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.blogs .rrr .categories .flexx li a:hover {
+  color: #1da1f2;
+}
+
+.blogs .rrr .categories .flexx li .discripition {
+  font-family: 'Courier New', Courier, monospace;
+}
 /*# sourceMappingURL=new.css.map */
