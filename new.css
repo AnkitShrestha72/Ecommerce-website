@@ -91,8 +91,8 @@
 }
 
 footer {
+  background-color: #222;
   color: #f3f3f3;
-  background-image: url(images/footer.svg);
   min-width: 100%;
 }
 
@@ -107,7 +107,7 @@ footer .foot {
 }
 
 footer .copyright {
-  background-color: #d12631;
+  background-color: #222;
   min-height: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,7 +122,8 @@ footer .copyright {
 
 footer #part1 h6 {
   cursor: pointer;
-  color: #ea4335;
+  color: #fff;
+  font-weight: 800;
 }
 
 footer #part1 p {
@@ -131,7 +132,8 @@ footer #part1 p {
 
 footer #part2 h6 {
   cursor: pointer;
-  color: #ea4335;
+  color: #fff;
+  font-weight: 800;
 }
 
 footer #part2 p {
@@ -140,7 +142,8 @@ footer #part2 p {
 
 footer #part3 h6 {
   cursor: pointer;
-  color: #ea4335;
+  color: #fff;
+  font-weight: 800;
 }
 
 footer #part3 p {
@@ -149,15 +152,22 @@ footer #part3 p {
 
 footer #part4 h6 {
   cursor: pointer;
-  color: #ea4335;
+  color: #fff;
+  font-weight: 800;
 }
 
 #part4 input {
   background: none;
-  border: 2px solid white;
+  border-bottom: 2px solid #666666;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   min-width: 20vw;
-  border-radius: 0.5rem;
   color: white;
+}
+
+#part4 input:focus {
+  border-bottom: 2px solid #666666;
 }
 
 #part3 .sociall {
@@ -532,9 +542,10 @@ footer #part4 h6 {
 }
 
 .blogs .rrr .categories .flexx li a {
+  font-family: Poppins-Regular;
   text-decoration: none;
   color: #000;
-  font-weight: 800;
+  font-size: 17px;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
@@ -544,6 +555,6 @@ footer #part4 h6 {
 }
 
 .blogs .rrr .categories .flexx li .discripition {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Poppins-Regular;
 }
 /*# sourceMappingURL=new.css.map */
