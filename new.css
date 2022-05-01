@@ -84,9 +84,8 @@
 }
 
 .sale {
-  background-color: #f3f3f3;
-  -webkit-filter: drop-shadow(8px 8px 10px #0e0e0e);
-          filter: drop-shadow(8px 8px 10px #0e0e0e);
+  -webkit-filter: drop-shadow(8px 8px 10px orange);
+          filter: drop-shadow(8px 8px 10px orange);
   text-align: center;
 }
 
@@ -556,5 +555,109 @@ footer #part4 h6 {
 
 .blogs .rrr .categories .flexx li .discripition {
   font-family: Poppins-Regular;
+}
+
+.blogs .rrr .categories .listt ul {
+  list-style: none;
+}
+
+.blogs .rrr .categories .listt ul li {
+  color: #888;
+  font-family: Poppins-Regular;
+  margin-top: 0.6em;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: -2em;
+}
+
+.blogs .rrr .categories .tags a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 0.7em;
+  margin: 0.2em;
+  color: #888;
+  border: 2px solid #888;
+  border-radius: 2em;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.blogs .rrr .categories .tags a:hover {
+  color: #1da1f2;
+  border: 2px solid #1da1f2;
+}
+
+.clearfix {
+  border-bottom: 1px solid #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.clearfix .baya {
+  display: block;
+}
+
+.clearfix .daya .dropdown {
+  display: inline-block;
+}
+
+.clearfix .daya .dropdown button {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.catee .baya1 {
+  border-right: 2px solid #cccccc;
+}
+
+.catee .gen p {
+  display: block;
+}
+
+.catee .gen .btn {
+  text-align: start;
+  display: block;
+  margin-left: -0.6em;
+  font-size: 1.5em;
+  border-bottom: 1px solid #cccccc;
+  color: #888;
+}
+
+.catee .gen .colors {
+  display: inline-block;
+}
+
+.catee .gen .colors input {
+  cursor: pointer;
+}
+
+.catee .gen .colors label {
+  cursor: pointer;
+}
+
+.catee .card-body {
+  font-family: Poppins-Regular;
+  background: none;
+  border: none;
+  color: #888;
+}
+
+.catee .card-body ul {
+  list-style: none;
+}
+
+.catee .card-body ul li {
+  margin-left: -3em;
+  margin-top: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
 }
 /*# sourceMappingURL=new.css.map */
