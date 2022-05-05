@@ -260,14 +260,21 @@ body{
 .load{
     display: flex;
     justify-content: center;
+    font-weight: bold;
+    
+}
+.load a{
+    text-decoration: none;
+    color: #1F221C;
     
 }
 
 .load h5{
+    font-size: 1.3em;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 400;
+    font-weight: 600;
     border: 2px solid black;
     width: 8em;
     border-radius: 3em;

@@ -1,0 +1,54 @@
+.down1 h1 {
+  font-weight: bold;
+}
+
+.tagss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tagss h6 {
+  border: 1px solid darkgrey;
+  padding: 0.3em;
+  border-radius: 1em;
+  margin-left: 1em;
+  font-size: 0.9em;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.tagss h6:hover {
+  color: blue;
+  border: 1px solid blue;
+}
+
+.form h3 {
+  font-weight: bold;
+}
+
+.form input {
+  width: 30%;
+  padding: 0.5em;
+  border: 1px solid gray;
+}
+
+.form button {
+  padding: 0.6em 1.6em;
+  font-weight: bold;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 3em;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.form button:hover {
+  background-color: #717fe0;
+}
+
+.line {
+  padding-bottom: 2em;
+  border-bottom: 1px solid grey;
+}
+/*# sourceMappingURL=blogdetails.css.map */

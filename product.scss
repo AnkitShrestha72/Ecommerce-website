@@ -1,0 +1,134 @@
+
+.swiper {
+  max-width: 90vw;
+  max-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  .lp{
+    background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 1.3em;
+      transition: 0.5s ease-in-out;
+
+      &:hover{
+          background-color: black;
+         
+      }
+  }
+
+
+.yololo{
+    display: flex ;
+    flex-wrap: wrap;
+    margin-right: 2em;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+  .right{
+
+    .similar{
+      h3{
+        font-weight: bold;
+      }
+    }
+   
+
+      .cards{
+        border: 2px solid grey;
+        display: inline-block;
+        padding: 2em;
+
+        font-family: normal;
+      }
+      h4{
+          font-weight: 900;
+      }
+
+    .detaill{
+        .btn{
+            border: 1px solid grey;
+        }
+    }
+   .butt{
+    button{
+        padding: 0.6em 1.9em;
+        font-weight: bold;
+        color: #fff;
+        background-color: black;
+        border-radius: 2em;
+        transition: 0.5s ease-in-out;
+        &:hover{
+             background-color: rgb(113, 127, 224);
+        }
+    }
+   }
+
+   .qualtity{
+       h6{
+           font-weight: 700;
+       }
+       input{
+           padding: 0.4em;
+           width: 4em;
+           font-weight: 600;
+           background-color: rgb(209, 208, 208);
+       }
+   }
+  }
+}
+
+.owl{
+   width: 36vw;
+   display: flex;
+   justify-content: center;
+
+   .itemm{
+     cursor: pointer;
+   }
+
+}
+
+.owl-nav{
+ display: none;
+}
+
+
+.owl-dots{
+  font-size: 2.5em;
+
+}

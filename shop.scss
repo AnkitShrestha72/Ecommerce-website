@@ -35,18 +35,35 @@
     opacity: 0;
 
 }
-
-.dis{
-    margin-top: 17em;
-    margin-left: -5em;
+.car{
     cursor: pointer;
-    h4{
-        margin-left: -5em;
-        font-size: 1em;
-        font-style: normal;
-        font-family: Poppins-Regular;
-    }
 }
+
+.detai{
+    width: 100%;
+    font-family: normal;
+    h5{
+        width: 100%;
+        margin-left: -2em;
+        margin-top: -3em;
+    }
+    h4{
+        margin-left: -5.5em;
+    }
+  
+}
+
+// .dis{
+//     margin-top: 17em;
+//     margin-left: -5em;
+//     cursor: pointer;
+//     h4{
+//         margin-left: -5em;
+//         font-size: 1em;
+//         font-style: normal;
+//         font-family: Poppins-Regular;
+//     }
+// }
 
 
 .view{
