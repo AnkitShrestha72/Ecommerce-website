@@ -67,6 +67,15 @@
           justify-content: space-evenly;
 }
 
+.yololo .right .dropdown {
+  font-size: 1.2em;
+}
+
+.yololo .right .dropdown select {
+  background-color: #d0d0d0;
+  border: 2px solid black;
+}
+
 .yololo .right .similar h3 {
   font-weight: bold;
 }

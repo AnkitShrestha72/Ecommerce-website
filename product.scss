@@ -61,6 +61,14 @@
 
   .right{
 
+    .dropdown{
+      font-size: 1.2em;
+      select{
+        background-color: rgb(208, 208, 208);
+        border: 2px solid black;
+      }
+    }
+
     .similar{
       h3{
         font-weight: bold;
